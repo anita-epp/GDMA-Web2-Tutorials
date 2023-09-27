@@ -1,8 +1,8 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Enter Title Here</title>
+        <title>Bird Watchers of Colorado</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
@@ -15,92 +15,95 @@
         <header class="site-header">
             <div class="wrapper">
                 <div class="logo">
-                    <img src="/images/logo.png"
+                    <img src="/images/logo.png" alt="Bird Watchers">
                 </div>
-                <ul class="nav">
-                    <li><a href="#places">Places</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#blogs">Blogs</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li><a href="#places">Places</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
         <!-- Main -->
-        <main>
+        <main id="main">
             <div class="hero">
                 <div class="wrapper">
                     <h1>Welcome to Colorado Bird Watcher</h1>
-                    <h2>Explore the world of Colorado's avian wonders.</h2>
+                    <p>Explore the world of Colorado's avian wonders.</p>
                 </div>
             </div>
 
-            <section class="places">
+            <section id="places">
                 <div class="wrapper">
-                    <h2 style="font-size:36px;">The Perfect Places For Bird Viewing</h2>
-                    <div>
-                        Are you a bird enthusiast looking for the perfect bird watching destination? Look no further than <span class="bold">Colorado</span>! With its diverse habitats and abundant bird species,Colorado offers a thrilling experience for bird watchers of all levels.
+                    <h2>The Perfect Places For Bird Viewing</h2>
+                    <p>Are you a bird enthusiast looking for the perfect bird watching destination? Look no further than <b>Colorado</b>! With its diverse habitats and abundant bird species,Colorado offers a thrilling experience for bird watchers of all levels.
                         <a href="/best_places">The best places to bird watch</a>
-                    </div>
+                    </p>
                 </div>
             </section>
 
             <section id="about">
                 <div class="wrapper">
                     <h2>More About Us</h2>
-                    <p>Our organization works to benefit threatened and endangered birds in Colorado. We have dozens of volunteers throughout the state leading birding groups on the weekends and lobbying for changes to benefit our bird populations.
-                        <div class="flex">
-                            <a href="/about-us">Learn more about our mission</a>
-                            <a href="/get-involved">Get involved as a volunteer</a>
-                        </div>
-                    </p>
+                    <p>Our organization works to benefit threatened and endangered birds in Colorado. We have dozens of volunteers throughout the state leading birding groups on the weekends and lobbying for changes to benefit our bird populations.</p>
+
+                    <div class="flex">
+                        <a href="/about-us">Learn more about our mission</a>
+                        <a href="/get-involved">Get involved as a volunteer</a>
+                    </div>
                 </div>
             </section>
 
-            <blog id="blogs">
+            <section id="blogs">
                 <div class="wrapper">
                     <h2>Latest News</h2>
                     <div class="flex">
-                        <div class="article">
-                            <a href="/beginners-guide"><img src="bird_1.jpg"></a>
-                            <h3>A Beginner's Guide to Bird Watching in Colorado</h3>
-                            <p>Everything you need to know to get started from an expert birder</p>
-                            <a href="/beginners-guide">More</a>
-                        </div>
-                        <div class="article">
-                            <a href="/bird_photography"><img src="bird_2.jpg" alt="bird"></a>
-                            <h4>Bird Photography Tips and Tricks</h4>
+                        <article>
+                            <a href="/beginners-guide">
+                                <img src="bird_1.jpg" alt="blue bird sitting on a branch">
+                                <h3>A Beginner's Guide to Bird Watching in Colorado</h3>
+                                <p>Everything you need to know to get started from an expert birder</p>
+                                <p>Read more about birding</p>
+                            </a>
+                        </article>
+                        <article>
+                            <img src="bird_2.jpg" alt="shot of a bird through a camera lens">
+                            <h3>Bird Photography Tips and Tricks</h3>
                             <p>Capturing stunning avian shots on your next hike</p>
-                            <a href="/bird_photography">More</a>
-                        </div>
-                        <div class="article">
-                            <a href="/beginners-gear"><img src="gear_1.jpg" alt="gear"></a>
-                            <h5>Gear Essentials</h5>
+                            <a href="/bird_photography">Get more tips</a>
+                        </article>
+                        <article>
+                            <img src="gear_1.jpg" alt="hiking and photography gear">
+                            <h3>Gear Essentials</h3>
                             <p>What You'll Need for a Successful Trip to Colorado</p>
-                            <a href="/beginners-gear">More</a>
-                        </div>
+                            <a href="/beginners-gear">Read more about gear</a>
+                        </article>
                         
                     </div>
-                    <button><a href="/blogs">Read more articles</a></button>
+                    <div><a href="/blogs">Read more articles</a></div>
                 </div>
-            </blog>
-        </main>
+            </section>
 
-        <div class="wrapper">
             <section id="contact">
+                <div class="wrapper">
                     <h2>Send us a message!</h2>
                     <p>Contact us with any questions, or sign up for our quarterly updates.</p>
                     <a href="/contact">Contact Us</a>
+                </div>
             </section>
-        </div>
+        </main>
 
         <!-- Footer -->
         <footer class="site-footer">
             <div class="wrapper">
-                <img src="/images/logo.png">
+                <img src="/images/logo.png" alt="Bird Watchers">
                 <ul class="flex">
-                    <li>Phone | <a href="tel:+1123-456-7890">(124) 456-7890</a></li>
-                    <li>Email | <a href="anita@email.com">anita@email.com</a></li>
+                    <li>Phone | <a href="tel:+1123-456-7890">123.456.7890</a></li>
+                    <li>Email | <a href="mailto:anita@email.com">anita@email.com</a></li>
                     <li><a href="/privacy-policy">Privacy Policy</a></li>
                 </ul>
             </div>
